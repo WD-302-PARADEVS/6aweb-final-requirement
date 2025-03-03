@@ -19,3 +19,13 @@ This component is for the Shelters page of the website. This page showcases the 
 
 ### 4. Contact
 This component is for the Contact page of the website. This page allows users to get in touch with the team through the contact form provided herein. The call-to-action button located at the end of every other page redirects users to this page.
+
+## Members and Roles
+
+Members | Roles
+--- | ---
+David, Kate Anne S. | **Shelters Page Developer**
+Dizon, Laurence Zaki G. | **About Page Developer**
+Natividad, Christine Jasline D. | **Mock-ups Designer**
+Paldeng, Carl Lester P. | **Contact Page Developer**
+Tayag, Chester Jonathan C. | **Homepage Developer**
