@@ -177,19 +177,6 @@ h1, h2, h3 {
         top: 8%;
     }
 
-    /* HERO/CTA STYLE RULES */
-    /* .hero-text h1, .cta-text h2 {
-        font-size: 4rem;
-    }
-
-    .hero-text h3, .cta-text h3 {
-        font-size: 2.5rem;
-    }
-
-    .hero-text p, .hero-text a, .cta-text p, .cta-text a {
-        font-size: 1.5rem;
-    } */
-
     /* BELOW HERO TEXT STYLE RULES */
     .below-hero {
         font-size: 1.5rem;

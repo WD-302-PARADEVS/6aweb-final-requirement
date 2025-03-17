@@ -125,3 +125,90 @@ section {
     margin-bottom: 10px;
 }
 
+/* CTA style rules added by Chester Tayag */
+.mobile-cta a, .cta-text a {
+    border: solid 2px var(--white);
+    border-radius: 20px;
+    padding: 15px;
+    color: var(--white);
+}
+
+/* .mobile-cta, .tab-desk-cta {
+    margin-top: 50px;
+} */
+
+@media (max-width: 767px) {
+    .tab-desk-cta {
+        display: none;
+    }
+
+    .mobile-cta {
+        border-radius: 20px;
+        padding: 20px;
+        background-color: var(--purple);
+        color: var(--white);
+    }
+
+    .mobile-cta h2 {
+        color: var(--black);
+    }
+
+    .mobile-cta div {
+        padding: 15px 0;
+    } 
+}
+
+@media (min-width: 768px) {
+    .mobile-cta {
+        display: none;
+    }
+
+    .tab-desk-cta {
+        position: relative;
+    }
+
+    .tab-desk-cta img {
+        border-radius: 20px;
+        width: 100%;
+    }
+
+    .cta-text {
+        position: absolute;
+        top: 7%;
+        left: 5%;
+        width: 50%;
+        color: var(--white);
+    }
+
+    .cta-text h2 {
+        font-size: 3.5rem;
+        color: var(--black);
+    }
+
+    .cta-text div {
+        padding: 15px 0;
+    }
+}
+
+@media (min-width: 1024px) {
+    .cta-text {
+        top: 20%;
+    }
+}
+
+@media (min-width: 1440px) {
+    .cta-text {
+        top: 25%;
+    }
+    .cta-text h2 {
+        font-size: 4rem;
+    }
+
+    .cta-text h3 {
+        font-size: 2.5rem;
+    }
+
+    .cta-text p, .cta-text a {
+        font-size: 1.5rem;
+    }
+}
