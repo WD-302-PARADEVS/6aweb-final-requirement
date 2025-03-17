@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+section {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.header, .values, .advocacy, .team {
+    padding: 30px; 
+    text-align: center;
+}
+
+.header {
+    background-color: #956EA6;
+    border-radius: 8px;
+    color: #FFFFF0;
+}
+
+.advocacy h2{
+    color: #FFFFF0;
+}
+
+.values h2, .team h2 {
+    color: #1E1E1E;
+    margin-bottom: 20px;
+}
+
+.values-icons {
+    display: flex;
+    justify-content: center; 
+    flex-wrap: wrap;
+}
+
+.value {
+    text-align: center;
+    margin: 20px;
+}
+
+.value img {
+    width: 80px; 
+    height: 80px;
+    border-radius: 50%;
+    object-fit: contain;
+}
+
+.advocacy {
+    background-color: #956EA6;
+    color: #FFFFF0;
+    padding: 30px 15px;
+    border-radius: 8px;
+}
+
+.advocacy h2 {
+    color: #FFFFF0;
+}
+
+.advocacy-content {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.advocacy-content p {
+    flex: 1;
+    margin: 0;
+    text-align: justify;
+    line-height: 1.6;
+}
+
+.advocacy-content img {
+    flex: 1;
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .advocacy-content {
+        flex-direction: column;
+    }
+
+    .advocacy-content p {
+        margin-bottom: 20px;
+    }
+
+    .advocacy-content img {
+        max-width: 100%;
+    }
+}
+
+.team-members {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.member {
+    width: 200px;
+    margin: 20px;
+    text-align: center;
+}
+
+.member img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
