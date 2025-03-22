@@ -30,6 +30,9 @@ Natividad, Christine Jasline D. | **Mock-ups Designer**
 Paldeng, Carl Lester P. | **Contact Page Developer**
 Tayag, Chester Jonathan C. | **Homepage Developer**
 
+## Backend Capabilities
+Due to time constraints, the main website hosted on GitHub pages does not have functioning backend. Instead, we have created another version of our website which supports backend functionality. The code can be seen via the backend branch of this repository.
+
 ## Canva Presentation of Website
 We also made a [Canva presentation](https://www.canva.com/design/DAGhcEMEeBY/fCojzUw90QM1Bx-OEnw7cw/edit?utm_content=DAGhcEMEeBY&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton) to further showcase our website in a more visually appealing manner. Feel free to check it out!
 
