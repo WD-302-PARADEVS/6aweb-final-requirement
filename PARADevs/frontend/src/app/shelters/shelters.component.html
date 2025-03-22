@@ -1,0 +1,47 @@
+<main>
+    <!-- HERO SECTION -->
+    <header class="hero">
+    </header>
+  
+    <!-- Purple Banner Section -->
+    <section class="purple-banner">
+      <h2>
+        A <span class="color-text">FURever</span> home starts with you<br>
+        Explore the local shelters and <span class="color-text">start your adoption journey today.</span>
+      </h2>
+    </section>
+  
+    <!-- Loop Through Shelters -->
+    <section class="shelter-container">
+      <div *ngFor="let shelter of shelters" class="shelter-content">
+        <img class="logo_shelter" [src]="shelter.logoUrl" alt="Shelter Logo">
+        <div class="shelter-info">
+          <h2>{{ shelter.name }}</h2>
+          <p><strong>Location:</strong> {{ shelter.location }}</p>
+          <p>{{ shelter.description }}</p>
+          <a [href]="shelter.fbUrl" class="visit-btn" target="_blank">Visit Facebook Page</a>
+          <div class="btn-container">
+            <button class="delete-btn" (click)="deleteShelter(shelter._id)">Delete</button>
+          </div>
+        </div>
+      </div>
+    </section>
+  
+    <!-- Add Shelter Form -->
+    <section class="shelter-form">
+      <h3>Add New Shelter</h3>
+      <form (ngSubmit)="createShelter()">
+        <div class="input-group">
+          <input [(ngModel)]="newShelter.name" name="name" placeholder="Name" required>
+          <input [(ngModel)]="newShelter.location" name="location" placeholder="Location" required>
+        </div>
+        <div class="input-group">
+          <input [(ngModel)]="newShelter.description" name="description" placeholder="Description" required>
+          <input [(ngModel)]="newShelter.logoUrl" name="logoUrl" placeholder="Logo URL" required>
+        </div>
+        <input [(ngModel)]="newShelter.fbUrl" name="fbUrl" placeholder="Facebook URL" required>
+        <button type="submit" class="add-btn">Add Shelter</button>
+      </form>
+    </section>
+  </main>
+  
